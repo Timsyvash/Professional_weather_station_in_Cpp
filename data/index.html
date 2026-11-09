@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP8266 Метеостанція</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="card">
+        <h1>Метеостанція</h1>
+        <hr style="margin: 15px 0; border: 0; border-top: 2px solid #ddd;">
+
+        <div class="sensor-info">
+            <p style="font-size: 18px;">Температура (°C): <span id="temp"
+                    style="font-weight: bold; color: #d9534f;">--</span></p>
+            <p style="font-size: 18px;">Вологість (%): <span id="humidity"
+                    style="font-weight: bold; color: #0275d8;">--</span></p>
+        </div>
+
+        <p id="status" style="font-size: 12px; color: #888; margin-top: 20px;">Підключення до метеостанції...</p>
+    </div>
+    <script src="/app.js"></script>
+</body>
+
+</html>
